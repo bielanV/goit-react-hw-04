@@ -15,9 +15,8 @@ const ImageModal = ({ isOpen, onRequestClose, largeImage }) => {
           right: 'auto',
           bottom: 'auto',
           transform: 'translate(-50%, -50%)',
-          objectFit: 'contain',
-          width: '700px',
-          height: '550px',
+
+          width: 'auto',
         },
       }}
     >

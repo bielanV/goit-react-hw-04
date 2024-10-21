@@ -29,6 +29,7 @@ ol {
 
 img {
   object-fit: cover;
+  border-radius: 4px;
 }
 
 body {
