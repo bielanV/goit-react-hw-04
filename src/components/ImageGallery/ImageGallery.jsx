@@ -7,12 +7,8 @@ const ImageGallery = ({ images, onClickImage }) => {
       <ul className={styles.list}>
         {Array.isArray(images) &&
           images.map((item) => (
-            <li
-              className={styles.item}
-              key={item.id}
-              onClick={() => onClickImage(item.urls.regular)}
-            >
-              <ImageCard item={item} />
+            <li className={styles.item} key={item.id}>
+              <ImageCard item={item} onClickImage={onClickImage} />
             </li>
           ))}
       </ul>
